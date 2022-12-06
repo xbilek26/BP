@@ -4,9 +4,6 @@ import numpy as np
 import shutil
 from tools.inference import *
 
-detection_rate = 5
-video_path = ""
-
 def get_normal_frames():
     count = 0
     cap = cv2.VideoCapture(video_path)
