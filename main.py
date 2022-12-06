@@ -116,9 +116,5 @@ if __name__ == "__main__":
     get_normal_frames()
     retrain()
     predictions = infer()
-<<<<<<< HEAD
     generate_output(predictions)
-=======
-    generate_output(predictions, video)
     
->>>>>>> 12159957e54621488100fa3db28a4c9326536b5c

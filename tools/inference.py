@@ -24,7 +24,7 @@ def retrain():
 
     model = 'padim'
     my_config = 'tools/config/padim.yaml' #no validation
-    pretrained_weights = 'pretrained-models/padim/model.ckpt'
+    pretrained_weights = 'checkpoint_files/padim/model.ckpt'
     log_level = 'INFO'
 
     configure_logger(level=log_level)
