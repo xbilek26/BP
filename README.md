@@ -7,7 +7,7 @@ Zejména na druhé ukázce je vidět, že algoritmus je schopen detekovat anomá
 - útočník viditělně poškozuje objekt na videu (zde konkrétně páčení kapoty a její poškození)
 - zloděj odebírá nějaký objekt (ukradení auta)
 
-## Ukázka výstupu (.gif)
+### Ukázka výstupu (.gif)
 
 test_1.mp4             |  test_2.mp4
 :-------------------------:|:-------------------------:
