@@ -29,7 +29,7 @@ def frames():
         if ret is not True:
             break
         if frame_id % (frame_rate * detection_rate) == 0:
-            file_name = 'temp/frames/%02d.jpg' % count;count+=1
+            file_name = 'temp/frames/%03d.jpg' % count;count+=1
             cv2.imwrite(file_name, frame)
     video.release()
 
